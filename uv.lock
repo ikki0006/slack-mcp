@@ -786,12 +786,12 @@ requires-dist = [
     { name = "black", marker = "extra == 'dev'" },
     { name = "flake8", marker = "extra == 'dev'" },
     { name = "isort", marker = "extra == 'dev'" },
-    { name = "mcp", specifier = ">=1.0.0" },
+    { name = "mcp", specifier = ">=1.11.0,<2.0.0" },
     { name = "mypy", marker = "extra == 'dev'" },
-    { name = "pydantic" },
+    { name = "pydantic", specifier = ">=2.11.0,<3.0.0" },
     { name = "pytest", marker = "extra == 'dev'" },
     { name = "pytest-cov", marker = "extra == 'dev'" },
-    { name = "slack-sdk" },
+    { name = "slack-sdk", specifier = ">=3.36.0,<4.0.0" },
 ]
 provides-extras = ["dev"]
 
